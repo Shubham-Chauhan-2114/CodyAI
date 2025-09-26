@@ -1,9 +1,11 @@
 import ollama
 
+request = input()
 stream = ollama.chat(
     model="gemma3",
     messages=[
-        {"role": "user", "content": "Explain system design of a URL shortener in 5 bullet points"}
+        {"role": "user",
+         "content": request}
     ],
     stream=True,
 )
