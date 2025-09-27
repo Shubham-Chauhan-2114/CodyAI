@@ -1,0 +1,6 @@
+# config.py
+EMBED_MODEL = "all-MiniLM-L6-v2"
+TOP_K = 3
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
+SIZE_CAP_MB = 50
