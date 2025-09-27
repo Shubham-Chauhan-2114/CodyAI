@@ -3,3 +3,4 @@ numpy
 ollama
 chromadb 
 sentence_transformers
+streamlit
